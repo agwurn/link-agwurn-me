@@ -555,8 +555,16 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .flex {
@@ -585,6 +593,14 @@ video {
 
 .w-80 {
   width: 20rem;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
 }
 
 .flex-col {
@@ -635,12 +651,8 @@ video {
      object-fit: cover;
 }
 
-.p-12 {
-  padding: 3rem;
-}
-
-.font-googleDigit {
-  font-family: "Press Start 2P", cursive;
+.pt-12 {
+  padding-top: 3rem;
 }
 
 .font-googleRoboto {

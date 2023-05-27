@@ -555,8 +555,8 @@ video {
   margin-bottom: 1rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .flex {
@@ -639,13 +639,27 @@ video {
   padding: 3rem;
 }
 
-.font-googlefont {
-  font-family: "Noto Sans TC", sans-serif;
+.font-googleDigit {
+  font-family: "Press Start 2P", cursive;
+}
+
+.font-googleRoboto {
+  font-family: "Roboto Mono", monospace;
 }
 
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
 .text-indigo-300 {

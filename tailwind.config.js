@@ -4,7 +4,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'googlefont': ['"Noto Sans TC"', 'sans-serif']
+        'googlefont': ['"Noto Sans TC"', 'sans-serif'],
+        'googleDigit' : ['"Press Start 2P"', 'cursive'],
+        'googleRoboto': ['"Roboto Mono"', 'monospace']
+      },
+      fontSize: {
+        // xxs: '20rem',
       }
     },
   },

@@ -11,16 +11,15 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Press+Start+2P&family=Roboto+Mono&display=swap" rel="stylesheet"></head>
 <body>
-    <div class="font-googlefont h-screen bg-indigo-100 flex justify-center items-center">
+    <div class="font-googleRoboto h-screen bg-indigo-100 flex justify-center items-center">
         <div class="w-80 p-12 rounded-lg flex flex-col justify-center items-center bg-white">
             <div class="w-40 h-40 rounded-full border-4 border-indigo-100 bg-indigo-100 overflow-hidden mb-4">
                 <img class="h-full object-cover" src="./images/agwurn_photo.jpg" alt="理鈞頭貼">
             </div>
             <h1 class="text-indigo-300 bold text-2xl">呂理鈞 agwurn</h1>
-            <p class="mt-4 mb-4 text-slate-400">frontend dev. / music prod.</p>
+            <p class="mt-2 mb-4 text-xs text-slate-400">frontend dev. / music prod.</p>
             <ul class="flex flex-col w-4/5">
                 <a class="card" href="https://streetvoice.com/agwurn/"><li>my music</li></a>
                 <a class="card" href="https://www.youtube.com/channel/UClZCS8tBEkYwaTyhDunphsg"><li>my video</li></a>
@@ -28,14 +27,15 @@
                 <a class="card" href="https://agwurn-resume.netlify.app/"><li>my resume</li></a>
                 <a class="card developing" href="#"><li>my shop</li></a>
             </ul>
-
-            <script>
-                const developingLink = document.querySelector('.developing');
-                developingLink.addEventListener('click', () => {
-                    alert('我的商店正在建造中，開張後再跟你說！')
-                })
-            </script>
+            <p class="font-googleRoboto text-gray-300 text-xs">made by agwurn & meitsu</p>
         </div>
     </div>
+
+    <script>
+        const developingLink = document.querySelector('.developing');
+        developingLink.addEventListener('click', () => {
+            alert('我的商店正在建造中，開張後再跟你說！')
+        })
+    </script>
 </body>
 </html>

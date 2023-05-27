@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap'); */
+
+@layer components {
+    .card {
+        @apply bg-slate-200 text-slate-400 rounded-lg w-full text-center py-2 my-2 border-indigo-100 hover:bg-red-100 ease-in-out transition;
+    }
+}

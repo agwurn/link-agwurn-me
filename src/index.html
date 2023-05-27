@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links｜呂理鈞 agwurn</title>
+    <meta name="description" content="理鈞的連結傳送門">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="font-googlefont h-screen bg-red-100 flex justify-center items-center">
+        <div class="w-80 p-6 rounded-lg flex flex-col justify-center items-center bg-white">
+            <div class="w-40 h-40 rounded-full border-4 border-red-100 bg-red-200 overflow-hidden m-6">
+                <img class="h-full object-cover" src="./images/agwurn_photo.jpg" alt="理鈞頭貼">
+            </div>
+            <h1 class="text-red-200 bold text-2xl">呂理鈞 agwurn</h1>
+            <p class="mb-4 text-slate-400">frontend dev. / music prod.</p>
+            <ul class="flex flex-col w-4/5">
+                <a class="card" href="https://streetvoice.com/agwurn/"><li>my music</li></a>
+                <a class="card" href="https://www.youtube.com/channel/UClZCS8tBEkYwaTyhDunphsg"><li>my video</li></a>
+                <a class="card" href="https://www.instagram.com/agwurn00/"><li>my instagram</li></a>
+                <a class="card" href="https://agwurn-resume.netlify.app/"><li>my resume</li></a>
+                <a class="card developing" href="#"><li>my shop</li></a>
+            </ul>
+
+            <script>
+                const developingLink = document.querySelector('.developing');
+                developingLink.addEventListener('click', () => {
+                    alert('我的商店正在建造中，開張後再跟你說！')
+                })
+            </script>
+        </div>
+    </div>
+</body>
+</html>

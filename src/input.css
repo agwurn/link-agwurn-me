@@ -6,6 +6,6 @@
 
 @layer components {
     .card {
-        @apply bg-slate-200 text-slate-400 rounded-lg w-full text-center py-2 my-2 border-indigo-100 hover:bg-red-100 ease-in-out transition;
+        @apply bg-white text-gray-400 rounded-lg w-full text-center py-2 my-2 border-indigo-200 border-2 hover:bg-yellow-100 hover:text-indigo-400 ease-in-out transition;
     }
 }

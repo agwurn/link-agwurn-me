@@ -527,15 +527,16 @@ video {
   margin-bottom: 0.5rem;
   width: 100%;
   border-radius: 0.5rem;
+  border-width: 2px;
   --tw-border-opacity: 1;
-  border-color: rgb(224 231 255 / var(--tw-border-opacity));
+  border-color: rgb(199 210 254 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-align: center;
   --tw-text-opacity: 1;
-  color: rgb(148 163 184 / var(--tw-text-opacity));
+  color: rgb(156 163 175 / var(--tw-text-opacity));
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
@@ -545,15 +546,17 @@ video {
 
 .card:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
-}
-
-.m-6 {
-  margin: 1.5rem;
+  background-color: rgb(254 249 195 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(129 140 248 / var(--tw-text-opacity));
 }
 
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .flex {
@@ -612,19 +615,14 @@ video {
   border-width: 4px;
 }
 
-.border-red-100 {
+.border-indigo-100 {
   --tw-border-opacity: 1;
-  border-color: rgb(254 226 226 / var(--tw-border-opacity));
+  border-color: rgb(224 231 255 / var(--tw-border-opacity));
 }
 
-.bg-red-100 {
+.bg-indigo-100 {
   --tw-bg-opacity: 1;
-  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
-}
-
-.bg-red-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+  background-color: rgb(224 231 255 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -637,8 +635,8 @@ video {
      object-fit: cover;
 }
 
-.p-6 {
-  padding: 1.5rem;
+.p-12 {
+  padding: 3rem;
 }
 
 .font-googlefont {
@@ -650,9 +648,9 @@ video {
   line-height: 2rem;
 }
 
-.text-red-200 {
+.text-indigo-300 {
   --tw-text-opacity: 1;
-  color: rgb(254 202 202 / var(--tw-text-opacity));
+  color: rgb(165 180 252 / var(--tw-text-opacity));
 }
 
 .text-slate-400 {

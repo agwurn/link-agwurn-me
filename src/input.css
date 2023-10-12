@@ -6,6 +6,9 @@
 
 @layer components {
     .card {
-        @apply bg-white text-gray-400 rounded-lg w-full text-center py-2 my-2 border-indigo-200 border-2 hover:bg-yellow-100 hover:text-indigo-400 ease-in-out transition;
+        @apply relative bg-white text-gray-400 rounded-lg w-full text-center py-2 my-2 border-indigo-200 border-2 hover:bg-yellow-100 hover:text-indigo-400 ease-in-out transition;
+    }
+    .newEvent {
+        @apply after:content-['new!'] after:bg-red-400 after:text-white after:absolute after:left-[-1.5em] after:top-[-1em] after:rounded-sm after:p-1
     }
 }
